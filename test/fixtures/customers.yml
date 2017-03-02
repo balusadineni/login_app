@@ -1,0 +1,4 @@
+subhash:
+  name: Venkata Subhash
+  email: venkata.subhash@scripbox.com
+  password_digest: <%= Customer.digest('password') %>
